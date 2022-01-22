@@ -1,6 +1,6 @@
  <img
       style="width: 100%; height: 200px"
-      src="images/elephant-1822636_1920.jpg"
+      src="banner-img.webp"
       alt="banner"
     />
     
