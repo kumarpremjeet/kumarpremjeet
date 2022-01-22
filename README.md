@@ -1,9 +1,17 @@
+ <img
+      style="width: 100%; height: 200px"
+      src="images/elephant-1822636_1920.jpg"
+      alt="banner"
+    />
+    
 <h1 align="center">Hi 👋, I'm Premjeet</h1>
 <h3 align="center">A passionate frontend developer</h3>
 
-<!-- <p align="left"> <img src="https://komarev.com/ghpvc/?username=kumarpremjeet&label=Profile%20views&color=0e75b6&style=flat" alt="kumarpremjeet" /> </p>
-
-<p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=kumarpremjeet" alt="kumarpremjeet" /></a> </p> -->
+<img
+      style="width: 300px; height: 210px; float: right"
+      src="images/giphy-img.gif"
+      alt="gift img"
+    />
 
 - 🔭 I’m currently working on **Live Project**
 
