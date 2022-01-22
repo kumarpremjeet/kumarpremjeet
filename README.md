@@ -10,9 +10,7 @@ In development, you should have an open mind and accept the fact that anything i
 - 👯 I’m looking to collaborate on Web project
 - 🤔 I’m looking for help with ...
 - 💬 Ask me about anything
-- 📫 How to reach me: ...
--     [Insta] https://www.instagram.com/intothevoid_prem/
--     [Email]  kumarpremjeet364@gmail.com
+- 📫 How to reach me: https://www.instagram.com/intothevoid_prem/
 - 😄 Pronouns: Prem
 - ⚡ Fun fact: My favourite animal is a dog because they're so energetic and friendly..
 
