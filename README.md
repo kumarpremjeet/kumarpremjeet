@@ -8,7 +8,7 @@
 <h3 align="center">A passionate frontend developer</h3>
 
 <img
-      style="width: 300px; height: 210px; display: inline-block; float: right; margin-left:40%"
+      style="width: 200px; height: 150px; float:right"
       src="Images/giphy-img.gif"
       alt="gift img"
     />
