@@ -21,10 +21,6 @@
 
 - 🤝 I’m looking for help with **Live project**
 
-- 👨‍💻 All of my projects are available at [ab.github.io](ab.github.io)
-
-- 📝 I regularly write articles on [abc.com](abc.com)
-
 - 💬 Ask me about **HTML5 , CSS , JS**
 
 - 📫 How to reach me **https://www.instagram.com/intothevoid_prem/**
