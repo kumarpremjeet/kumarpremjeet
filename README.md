@@ -7,11 +7,11 @@
 <h1 align="center">Hi 👋, I'm Premjeet</h1>
 <h3 align="center">A passionate frontend developer</h3>
 
-<img
+<!-- <img
       style="width: 200px; height: 150px; float:right"
       src="Images/giphy-img.gif"
       alt="gift img"
-    />
+    /> -->
 
 - 🔭 I’m currently working on **Live Project**
 
