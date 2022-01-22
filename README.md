@@ -9,7 +9,7 @@
 
 <img
       style="width: 300px; height: 210px; float: right"
-      src="Images/banner-img.webp"
+      src="Images/giphy-img.gif"
       alt="gift img"
     />
 
