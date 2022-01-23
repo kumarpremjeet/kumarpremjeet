@@ -1,5 +1,5 @@
  <img
-      style="width: 100%; height: 240px"
+      style="width: 100%; height: 260px"
       src="Images/banner-img.webp"
       alt="banner"
     />
