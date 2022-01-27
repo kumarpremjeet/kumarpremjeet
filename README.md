@@ -21,7 +21,7 @@
 
 - 🤝 I’m looking for help with **Live project**
 
-- 💬 Ask me about **HTML5 , CSS , JS**
+- 💬 Ask me about **HTML, HTML5 , CSS, CSS3 , JS**
 
 - 📫 How to reach me **https://www.instagram.com/intothevoid_prem/**
 
