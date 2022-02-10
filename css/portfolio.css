@@ -96,7 +96,7 @@ nav {
 
 .bg-poster {
   width: 100%;
-  background-image: url(images/computer-1185569.jpg);
+  background-image: url(https://cdn.pixabay.com/photo/2016/02/07/20/38/computer-1185569_960_720.jpg);
   background-size: 100% 95vh;
   background-repeat: no-repeat;
   height: 95vh;
@@ -237,7 +237,7 @@ nav {
 .edu {
   height: 117vh;
   width: 100%;
-  background-image: url(images/workplace-5517762.jpg);
+  background-image: url(https://cdn.pixabay.com/photo/2017/11/27/21/31/computer-2982270_960_720.jpg);
   background-size: 100% 117vh;
   background-repeat: no-repeat;
 }
