@@ -1,6 +1,6 @@
  <img
       style="width: 100%; height: 260px"
-      src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.fiverr.com%2Fnishant08111%2Fbe-your-awesome-front-end-web-developer&psig=AOvVaw14hHW9qSeP4iNjg_nO5XRL&ust=1647774462679000&source=images&cd=vfe&ved=0CAsQjRxqFwoTCNDCmLeE0vYCFQAAAAAdAAAAABAJ"
+      src="Front-end-bg.jpg"
       alt="banner"
     />
     
