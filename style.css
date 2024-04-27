@@ -1,143 +1,297 @@
-@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz,wght@6..12,200;6..12,300;6..12,400;6..12,500;6..12,600;6..12,700;6..12,800;6..12,900;6..12,1000&display=swap');
-html,
-body {
-    margin: 0px;
-    height: 100%;
-    font-family: 'Nunito Sans', sans-serif ;
-}
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
 
-.bg_heart {
-    position: relative;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    overflow: hidden;
-    background-image: url(/Images/IMG20231209185836.jpg);
-    background-size: cover;
-    z-index: -1;
-}
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap');
 
-.container1 {
-    position: absolute;
-    top: 0;
-    left: 0;
-    height: 100%;
-    width: 100%;
-    text-align: center;
- 
-    line-height: 50px;
-    background-color: rgba(0, 0, 0,0.4);
-}
-.container1 #text1{
-    color: white;
-    font-family: cursive;
-    font-size: 4rem !important;
-    font-weight: 700;
-}
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@600&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@600&display=swap');
 
 
-.heart {
-    position: absolute;
-    top: -50%;
-    transform: rotate(-45deg);
-    -webkit-transform: rotate(-45deg);
-    -moz-transform: rotate(-45deg);
-    -m-transform: rotate(-45deg);
-}
-
-.heart:before {
-    position: absolute;
-    top: -50%;
-    left: 0;
-    display: block;
-    content: "";
-    width: 100%;
-    height: 100%;
-    background: inherit;
-    border-radius: 100%;
-}
-
-.heart:after {
-    position: absolute;
-    top: 0;
-    right: -50%;
-    display: block;
-    content: "";
-    width: 100%;
-    height: 100%;
-    background: inherit;
-    border-radius: 100%;
-}
-
-@keyframes love {
-    0% {
-        top: 110%
-    }
-}
-
-@-webkit-keyframes love {
-    0% {
-        top: 110%
-    }
-}
-
-@-moz-keyframes love {
-    0% {
-        top: 110%
-    }
-}
-
-@-ms-keyframes love {
-    0% {
-        top: 110%
-    }
-}
-#HappyBirthdayWarapper{
-    display: none;
-    position: absolute;
-    width: 100%;
-    height: 100vh;
-    top: 0;left: 0;
-}
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Montserrat+Alternates:wght@600&display=swap');
 
 body {
-    /* margin: 0;
-    background: #020202; */
-    cursor: crosshair;
-  }
-  canvas{display:block}
-  h1 {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    color: #fff;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 4.2em;
-    /* line-height: 50px; */
-    font-weight: 900;
-    -webkit-user-select: none;
-    user-select: none;
-  }
-  /* #HappyBirthdayWarapper{
-    display:flex;
-    justify-content: center;
-    align-items: center;
-  } */
+	font-family: 'Poppins', sans-serif !important;
+}
+
+@media (min-width: 1400px) {
+
+	nav .container,
+	.container-lg,
+	.container-md,
+	.container-sm,
+	.container-xl,
+	.container-xxl {
+		max-width: 1345px !important;
+	}
+}
+
+@media (min-width: 1200px) {
+
+	nav .container,
+	.container-lg,
+	.container-md,
+	.container-sm,
+	.container-xl {
+		max-width: 1165px;
+	}
+}
+
+.carousel-item img {
+	max-height: 500px;
+	border-radius: 5px;
+}
+
+.landingContent h1 {
+	font-size: 3.75rem;
+	font-weight: 700;
+	line-height: 72px;
+	letter-spacing: -0.02em;
+}
+
+.landingContent h6 {
+	font-size: 1.25rem;
+	font-weight: 500;
+	line-height: 30px;
+	letter-spacing: 0em;
+}
+
+.smallHr {
+	margin-left: 20px;
+	width: 60px;
+	height: 1px;
+	background-color: #00000033;
+}
+
+.SectionContent h4 {
+	font-family: 'Montserrat Alternates', sans-serif;
+	font-size: 1.125rem;
+	font-weight: 600;
+	line-height: 28px;
+	letter-spacing: 0em;
+
+}
+
+.SectionContent h2 {
+	font-family: 'Montserrat Alternates', sans-serif;
+
+	font-size: 2.438rem;
+	font-weight: 700;
+	line-height: 50px;
+	letter-spacing: 0em;
+}
+
+.SectionContent h6 {
+	font-family: 'Montserrat Alternates', sans-serif;
+	font-size: 1rem;
+	font-weight: 400;
+	line-height: 26px;
+	letter-spacing: 0em;
 
 
-@media (max-width:757px) {
-    .container1 #text1{
-      margin-top: 20px;
-        font-size: 2.3rem !important;       
-        line-height: 40px;
-    }
-    canvas{display:block}
-  h1 {   
-    font-size: 3em;
-    /* line-height: 50px; */
-    font-weight: 900;
+}
 
-  }
+
+.video-container {
+	width: 100%;
+	/* border-radius: 4px; */
+	margin: 0 auto;
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+
+	.video-wrapper {
+		width: 100%;
+		height: 100%;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+
+	video {
+		width: 100%;
+		height: 100%;
+		border-radius: 4px;
+	}
+}
+
+.play-button-wrapper {
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 100%;
+	height: auto;
+	pointer-events: none;
+
+	#circle-play-b {
+		cursor: pointer;
+		pointer-events: auto;
+
+		svg {
+			width: 55px;
+			height: 55px;
+			fill: #008b2a;
+			stroke: #008b2a;
+			cursor: pointer;
+			background-color: rgba(black, 0.2);
+			border-radius: 50%;
+			opacity: 0.9;
+		}
+	}
+}
+
+.headingWithBtn {
+	display: inline-block;
+	padding: 7px 19px !important;
+	border-radius: 36px;
+	font-size: 0.75rem;
+	font-weight: 500;
+	letter-spacing: 0em;
+	background-color: #DCFCE7;
+	color: #22C55E;
+}
+
+.hedingsec2 {
+
+	font-size: 3rem;
+	font-weight: 700;
+	line-height: 60px;
+	letter-spacing: -0.02em;
+
+
+}
+
+.stepContCircle {
+	width: 48px;
+	height: 48px;
+	background-color: #22C55E;
+	font-family: Poppins;
+	font-size: 1.25rem;
+	color: #fff;
+	font-weight: 500;
+	letter-spacing: -0.02em;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+	border-radius: 50%;
+}
+
+.card-title {
+	font-size: 1.25rem;
+	font-weight: 700;
+	line-height: 30px;
+	letter-spacing: 0em;
+}
+
+.bg-image {
+	background-repeat: repeat;
+	padding: 3rem 0;
+	background-image: url(/Images/boxBg.svg);
+	background-size: cover;
+}
+
+.progress-bar {
+	background-color: #198754;
+}
+
+.progressiveContent p {
+	margin: 0 !important;
+	font-family: Montserrat;
+	font-size: 1.25rem;
+	font-weight: 600;
+	line-height: 28px;
+	letter-spacing: 0em;
+}
+
+#Blogs .card-group .card {
+	margin: 0 10px;
+	border-left: 1px solid rgb(204, 204, 204);
+	border-radius: 5px;
+}
+
+.flexCustom {
+	flex-direction: inherit;
+}
+
+.missionCard{
+	width: 49%;
+}
+
+@media (max-width:992px) {
+	.cutomPaddingBT {
+		padding: 10px 0 !important;
+	}
+
+	.flexCustom {
+		flex-direction: column-reverse;
+	}
+
+	.landingContent h1 {
+		font-size: 2rem;
+		line-height: 40px;
+
+	}
+
+	.landingContent h6 {
+		font-size: 1.1rem;
+		line-height: 25px;
+	}
+
+	.hedingsec2 {
+		font-size: 2rem;
+		line-height: 40px;
+	}
+
+	.customPadd {
+		margin-bottom: 0 !important;
+		padding-bottom: 0 !important;
+		padding-top: 0 !important;
+		margin-top: 0 !important;
+	}
+}
+
+@media (max-width:557px) {
+	.SectionContent h2 {
+		font-size: 1.3rem;
+		line-height: 26px;
+	}
+
+	.SectionContent h6 {
+		font-size: .9rem;
+		line-height: 20px;
+
+	}
+
+	.landingContent h1 {
+		font-size: 1.5rem;
+		line-height: 30px;
+		margin-top: 30px;
+
+	}
+
+	.landingContent h6 {
+		font-size: 1rem;
+		line-height: 20px;
+	}
+
+	.landingContent {
+		padding: 15px !important;
+	}
+
+	.SectionContent {
+		padding: 8px !important;
+	}
+
+	.hedingsec2 {
+		font-size: 1.5rem;
+		line-height: 30px;
+	}
 }
