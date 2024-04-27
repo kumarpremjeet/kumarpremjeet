@@ -1,381 +1,623 @@
-
-
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Chandni</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
-    <style>
-      @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz,wght@6..12,200;6..12,300;6..12,400;6..12,500;6..12,600;6..12,700;6..12,800;6..12,900;6..12,1000&display=swap');
-html,
-body {
-    margin: 0px;
-    height: 100%;
-    font-family: 'Nunito Sans', sans-serif ;
-}
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NGO</title>
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="/Plugin/bootstrap-5.2.3-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
 
-.bg_heart {
-    position: relative;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    overflow: hidden;
-    background-image: url(IMG20231209185836.jpg);
-    background-size: cover;
-    z-index: -1;
-}
+<body>
+    <nav class="navbar navbar-expand-lg bg-white">
+        <div class="container px-3 px-md-0">
+            <!-- <a class="navbar-brand" href="#"></a> -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse  navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav  me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item mx-0 mx-md-3">
+                        <a class="nav-link" href="#">Our Work</a>
+                    </li>
+                    <li class="nav-item mx-0 mx-md-3">
+                        <a class="nav-link" href="#">About us</a>
+                    </li>
+                    <li class="nav-item mx-0 mx-md-3">
+                        <a class="nav-link" href="#">Contact us</a>
+                    </li>
+                    <li class="nav-item mx-0 mx-md-3">
+                        <a class="nav-link" href="#">Blog</a>
+                    </li>
+                </ul>
+                <form class="d-flex" role="search">
+                    <button class="btn btn-success" type="submit">Donate for good Cause</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+    <!-- <main class="container px-3 mt-4 px-md-0">
+        <div class="row flexCustom">
+            <div class="col-12 col-md-6 bg-light cutomPaddingBT  d-flex align-items-center">
+                <div class="px-4 landingContent">
+                    <h1>
+                        Providing Hope and Support to Those in Need
+                    </h1>
+                    <h6>Join Us in Our Efforts to Empower Vulnerable Communities</h6>
+                    <div>
+                        <button type="button" class="btn btn-success">Donate Now</button>
+                        <button type="button" class="btn bg-white border">Call us</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 bg-light ">
+                <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="/Images/slide1.png" class="d-block w-100" alt="ngo donate slide-1">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="/Images/slide2.png" class="d-block w-100" alt="poor child ngo slide-2">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="/Images/slide3.jpg" class="d-block w-100" alt="blood donate ngo sloid-3">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main> -->
 
-.container1 {
-    position: absolute;
-    top: 0;
-    left: 0;
-    height: 100%;
-    width: 100%;
-    text-align: center;
- 
-    line-height: 50px;
-    background-color: rgba(0, 0, 0,0.4);
-}
-.container1 #text1{
-    color: white;
-    font-family: cursive;
-    font-size: 4rem !important;
-    font-weight: 700;
-}
+    <!-- <section class="container my-5 bg-white px-3 px-md-0">
+        <div class="row py-4">
+            <div class="col-12 col-md-6  ">
+                <img src="/Images/donate-shearing.png" class="img-fluid" alt="donation image">
+            </div>
+            <div class="col-12 col-md-6 pt-3 pt-md-0  d-flex align-items-center">
+                <div class="px-4 SectionContent">
+                    <h4 class="d-flex align-items-center">About us <div class="smallHr"></div>
+                    </h4>
+                    <h2 class="mt-4">
+                        Your Support is Really
+                        Powerful.​
+                    </h2>
+                    <h6>The secret to happiness lies in helping others. Never
+                        underestimate the difference YOU can make in the
+                        lives of the poor, the abused and the helpless.</h6>
+                    <div>
+                        <button type="button" class="btn btn-success">Donate Now</button>
 
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section> -->
+    <!-- <section class="bg-light mt-5 bg-image">
+        <div class="container my-5 py-5  px-3 px-md-0 customPadd">
+            <div class="row ">
 
-.heart {
-    position: absolute;
-    top: -50%;
-    transform: rotate(-45deg);
-    -webkit-transform: rotate(-45deg);
-    -moz-transform: rotate(-45deg);
-    -m-transform: rotate(-45deg);
-}
+                <div class="col-12 col-md-6 d-flex align-items-center">
+                    <div class="px-4">
+                        <h4 class="headingWithBtn">Our work </h4>
+                        <h2 class="mt-3 hedingsec2">
+                            Join Our Efforts to Provide Education and Opportunities to Kids Everywhere
+                        </h2>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 ">
 
-.heart:before {
-    position: absolute;
-    top: -50%;
-    left: 0;
-    display: block;
-    content: "";
-    width: 100%;
-    height: 100%;
-    background: inherit;
-    border-radius: 100%;
-}
+                    <div class="video-wrapper">
+                        <div class="video-container" id="video-container">
+                            <video controls id="video" preload="metadata" poster="/Images/video-cover.png">
+                                <source src="/Images/Do Not Waste Food - Very Inspiring.mp4.mp4" type="video/mp4">
+                            </video>
 
-.heart:after {
-    position: absolute;
-    top: 0;
-    right: -50%;
-    display: block;
-    content: "";
-    width: 100%;
-    height: 100%;
-    background: inherit;
-    border-radius: 100%;
-}
+                            <div class="play-button-wrapper">
+                                <div title="Play video" class="play-gif" id="circle-play-b">
 
-@keyframes love {
-    0% {
-        top: 110%
-    }
-}
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 80 80">
+                                        <path d="M40 0a40 40 0 1040 40A40 40 0 0040 0zM26 61.56V18.44L64 40z" />
+                                    </svg>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row mt-5">
+                <div class="col">
+                    <div class="card border-0 bg-transparent">
+                        <div class="card-body">
+                            <div class="stepContCircle">1</div>
+                            <h5 class="card-title mt-3">Importance of Education</h5>
+                            <p class="card-text">Stay connected with your team and make quick decisions wherever you
+                                are.</p>
 
-@-webkit-keyframes love {
-    0% {
-        top: 110%
-    }
-}
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card border-0 bg-transparent">
+                        <div class="card-body">
+                            <div class="stepContCircle">2</div>
+                            <h5 class="card-title mt-3">Yoga & its Benefit</h5>
+                            <p class="card-text">Get a complete sales dashboard in the cloud. See activity, revenue and
+                                social metrics all in one place.</p>
 
-@-moz-keyframes love {
-    0% {
-        top: 110%
-    }
-}
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card border-0 bg-transparent">
+                        <div class="card-body">
+                            <div class="stepContCircle">3</div>
+                            <h5 class="card-title mt-3">Health Awareness</h5>
+                            <p class="card-text">Our calendar lets you know what is happening with customer and projects
+                                so you</p>
 
-@-ms-keyframes love {
-    0% {
-        top: 110%
-    }
-}
-#HappyBirthdayWarapper{
-    display: none;
-    position: absolute;
-    width: 100%;
-    height: 100vh;
-    top: 0;left: 0;
-}
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <div class="card border-0 bg-transparent">
+                        <div class="card-body">
+                            <div class="stepContCircle">4</div>
+                            <h5 class="card-title mt-3">Spiritual Literature </h5>
+                            <p class="card-text">A tool that lets you build a dream website even if you know nothing
+                                about web design or programming.</p>
 
-body {
-    /* margin: 0;
-    background: #020202; */
-    cursor: crosshair;
-  }
-  canvas{display:block}
-  h1 {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    color: #fff;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 4.2em;
-    /* line-height: 50px; */
-    font-weight: 900;
-    -webkit-user-select: none;
-    user-select: none;
-  }
-  /* #HappyBirthdayWarapper{
-    display:flex;
-    justify-content: center;
-    align-items: center;
-  } */
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card border-0 bg-transparent">
+                        <div class="card-body">
+                            <div class="stepContCircle">5</div>
+                            <h5 class="card-title mt-3">Blood Donation </h5>
+                            <p class="card-text">The first business platform to bring together all of your products from
+                                one place.</p>
 
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card border-0 bg-transparent">
+                        <div class="card-body">
+                            <div class="stepContCircle">6</div>
+                            <h5 class="card-title mt-3">Music & Culture</h5>
+                            <p class="card-text">End to End Business Platform, Sales Management, Marketing Automation,
+                                Help Desk</p>
 
-@media (max-width:757px) {
-    .container1 #text1{
-      margin-top: 20px;
-        font-size: 2.3rem !important;       
-        line-height: 40px;
-    }
-    canvas{display:block}
-  h1 {   
-    font-size: 3em;
-    /* line-height: 50px; */
-    font-weight: 900;
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section> -->
 
-  }
-}
-    </style>
-  </head>
-  <body>
+    <!-- <section class="container my-5 bg-white px-3 px-md-0">
+        <div class="row py-4" style="flex-wrap: wrap-reverse;">
+            <div class="col-12 col-md-12 col-lg-6 d-flex align-items-center">
+                <div class="px-4 SectionContent">
+                    <h4 class="d-flex align-items-center">Welcome to Charity <div class="smallHr"></div>
+                    </h4>
+                    <h2 class="mt-4">
+                        Let Us Come Together
+                        To Make a Difference
+                    </h2>
+                    <h6>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
+                        nonumy tempor invidunt ut labore et dolore magna aliquyam
+                        erat, sed diam voluptua. At vero eos et accusam et justo.</h6>
+                    <div class="d-flex justify-content-between mt-5">
+                        <div class="card missionCard border-0 bg-success bg-opacity-10">
+                            <div class="card-body">
+                                <h5 class="card-title text-success text-center">Our mission</h5>
+                                <p class="card-text">With supporting text below as a natural lead-in to additional
+                                    content.</p>
 
-    <div class="bg_heart" id="ThoughtsWrapper">
-    </div>
-    <div class="container1 " id="ThoughtsWrapper1">
-        <h2 id="text1"></h2>
-    </div>
- 
-   <section id="HappyBirthdayWarapper">
-    <h1><span style="color: #00CFC1;">I want you for always 🥳...</span> </br><span class="text-danger">Happy birthday, <br> My love ❤️</span></h1>
-    <canvas id="birthday"></canvas>
-   </section>
-    
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
-    <script src="https://code.jquery.com/jquery-3.7.1.js" ></script>
-    <script>
+                            </div>
+                        </div>
+                        <div class="card missionCard border-0 bg-success bg-opacity-10">
+                            <div class="card-body">
+                                <h5 class="card-title text-success text-center">Our vission</h5>
+                                <p class="card-text">With supporting text below as a natural lead-in to additional
+                                    content.</p>
 
-$(document).ready(function () {
-    $("#header-plugin").load("https://vivinantony.github.io/header-plugin/", function () {
-        $("a.back-to-link").attr("href", "http://blog.thelittletechie.com/2015/03/love-heart-animation-using-css3.html#tlt")
-    });
-})
+                            </div>
+                        </div>
+                    </div>
+                    <div class="progressiveContent mt-4 d-flex justify-content-between">
+                        <p>Donations</p>
+                        <p>75%</p>
+                    </div>
+                    <div class="progress">
+                        <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar"
+                            aria-label="Animated striped example" aria-valuenow="75" aria-valuemin="0"
+                            aria-valuemax="100" style="width: 75%"></div>
+                    </div>
+                    <div class="progressiveContent mt-3 d-flex justify-content-between">
+                        <p>Medical Help</p>
+                        <p>90%</p>
+                    </div>
+                    <div class="progress">
+                        <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar"
+                            aria-label="Animated striped example" aria-valuenow="75" aria-valuemin="0"
+                            aria-valuemax="100" style="width: 90%"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12  col-md-12 col-lg-6">
+                <img src="/Images/donate-shearing.png" class="img-fluid" alt="donation image">
+            </div>
+        </div>
+    </section> -->
 
-var love = setInterval(function () {
-    var r_num = Math.floor(Math.random() * 40) + 1;
-    var r_size = Math.floor(Math.random() * 65) + 10;
-    var r_left = Math.floor(Math.random() * 100) + 1;
-    var r_bg = Math.floor(Math.random() * 25) + 100;
-    var r_time = Math.floor(Math.random() * 5) + 5;
-    $('.bg_heart').append("<div class='heart' style='width:" + r_size + "px;height:" + r_size + "px;left:" + r_left + "%;background:rgba(255," + (r_bg - 25) + "," + r_bg + ",1);-webkit-animation:love " + r_time + "s ease;-moz-animation:love " + r_time + "s ease;-ms-animation:love " + r_time + "s ease;animation:love " + r_time + "s ease'></div>");
+    <!-- <section class="container my-5 bg-white px-3 px-md-0">
+        <div class="row py-4">
+            <div class="col-12 d-flex align-items-center">
+                <div class="px-4 SectionContent">
+                    <h4 class="d-flex align-items-center">Welcome to Charity <div class="smallHr"></div>
+                    </h4>
+                    <h2 class="mt-4">
+                        We Believe that We can Save <br>
+                        More Lifes with you
+                    </h2>
+                </div>
+            </div>
+            <div class="col-12 pt-4">
+                <div class="row row-cols-1 row-cols-sm-2 row-cols-md-4 g-3">
+                    <div class="col">
+                        <div class="card pt-5 pb-4 text-center
+                       border-0 bg-success pt-3 bg-opacity-10">
+                            <img src="/Images/peopleRise.png" class="card-img-top m-auto"
+                                style="width: 90px !important;" alt="ngo poor child blood donate">
+                            <div class="card-body">
+                                <h5 class="card-title">4597+</h5>
+                                <p class="card-text">People rised</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card pt-5 pb-4 text-center border-0 pt-3 bg-success bg-opacity-10">
+                            <img src="/Images/Volunteer.png" class="card-img-top m-auto" style="width: 90px !important;"
+                                alt="ngo poor child blood donate">
+                            <div class="card-body">
+                                <h5 class="card-title">150+</h5>
 
-    $('.bg_heart').append("<div class='heart' style='width:" + (r_size - 10) + "px;height:" + (r_size - 10) + "px;left:" + (r_left + r_num) + "%;background:rgba(255," + (r_bg - 25) + "," + (r_bg + 25) + ",1);-webkit-animation:love " + (r_time + 5) + "s ease;-moz-animation:love " + (r_time + 5) + "s ease;-ms-animation:love " + (r_time + 5) + "s ease;animation:love " + (r_time + 5) + "s ease'></div>");
+                                <p class="card-text">Volunteer</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card pt-5 pb-4 text-center border-0 pt-3 bg-success bg-opacity-10">
+                            <img src="/Images/poorPeopleSaved.png" class="card-img-top m-auto"
+                                style="width: 90px !important;" alt="ngo poor child blood donate">
+                            <div class="card-body">
+                                <h5 class="card-title">10M+</h5>
+                                <p class="card-text">poor People Saved</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card pt-5 pb-4 text-center border-0 bg-success pt-3 bg-opacity-10">
+                            <img src="/Images/CountryMember.png" class="card-img-top m-auto"
+                                style="width: 90px !important;" alt="ngo poor child blood donate">
+                            <div class="card-body">
+                                <h5 class="card-title">100+</h5>
+                                <p class="card-text">Country Member</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section> -->
 
+    <section class="container my-5 bg-white px-3 px-md-0">
+        <div class="row py-4">
+            <div class="col-12 d-flex align-items-center">
+                <div class="px-4 SectionContent">
+                    <h4 class="d-flex align-items-center">Latest News <div class="smallHr"></div>
+                    </h4>
+                    <h2 class="mt-4">
+                        Articel You May Read
+                    </h2>
+                </div>
+            </div>
+            <div class="col-12 pt-4">
+                <div id="Blogs" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <div class="card-group">
+                                <div class="card">
+                                    <img src="/Images/helpingPeople.png" class="card-img-top" alt="best ngo">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Charity, Expectations vs. Reality</h5>
+                                        <p class="card-text">Lorem ipsum dolor sit amet, consetetur sadipscing
+                                            sed diam nonumy tempor invidunt ut labore et
+                                            magna aliquyam erat, sed diam voluptua.....
+                                        </p>
+                                        <p class="card-text"><small class="text-muted"><i
+                                                    class="fa-regular fa-calendar-days"></i> 12 sep 2021</small>
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="card">
+                                    <img src="/Images/hungreeGirl.png" class="card-img-top"
+                                        alt="works for hungry peple">
+                                    <div class="card-body">
+                                        <h5 class="card-title">This Week’s Top Stories About Charity</h5>
+                                        <p class="card-text">Lorem ipsum dolor sit amet, consetetur sadipscing
+                                            sed diam nonumy tempor invidunt ut labore et
+                                            magna aliquyam erat, sed diam voluptua.....</p>
+                                        <p class="card-text"><small class="text-muted"><i
+                                                    class="fa-regular fa-calendar-days"></i> Last updated 10 Week’s
+                                                ago</small>
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="card">
+                                    <img src="/Images/hungryChild.png" class="card-img-top"
+                                        alt="works for hungry people">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Why You Should Focus on Charity</h5>
+                                        <p class="card-text">Lorem ipsum dolor sit amet, consetetur sadipscing
+                                            sed diam nonumy tempor invidunt ut labore et
+                                            magna aliquyam erat, sed diam voluptua.....</p>
+                                        <p class="card-text"><small class="text-muted"><i
+                                                    class="fa-regular fa-calendar-days"></i> 2 months ago</small>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="card-group">
+                                <div class="card">
+                                    <img src="/Images/helpingPeople.png" class="card-img-top" alt="best ngo">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Charity, Expectations vs. Reality</h5>
+                                        <p class="card-text">Lorem ipsum dolor sit amet, consetetur sadipscing
+                                            sed diam nonumy tempor invidunt ut labore et
+                                            magna aliquyam erat, sed diam voluptua.....
+                                        </p>
+                                        <p class="card-text"><small class="text-muted"><i
+                                                    class="fa-regular fa-calendar-days"></i> 12 sep 2021</small>
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="card">
+                                    <img src="/Images/hungreeGirl.png" class="card-img-top"
+                                        alt="works for hungry peple">
+                                    <div class="card-body">
+                                        <h5 class="card-title">This Week’s Top Stories About Charity</h5>
+                                        <p class="card-text">Lorem ipsum dolor sit amet, consetetur sadipscing
+                                            sed diam nonumy tempor invidunt ut labore et
+                                            magna aliquyam erat, sed diam voluptua.....</p>
+                                        <p class="card-text"><small class="text-muted"><i
+                                                    class="fa-regular fa-calendar-days"></i> Last updated 10 Week’s
+                                                ago</small>
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="card">
+                                    <img src="/Images/hungryChild.png" class="card-img-top"
+                                        alt="works for hungry people">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Why You Should Focus on Charity</h5>
+                                        <p class="card-text">Lorem ipsum dolor sit amet, consetetur sadipscing
+                                            sed diam nonumy tempor invidunt ut labore et
+                                            magna aliquyam erat, sed diam voluptua.....</p>
+                                        <p class="card-text"><small class="text-muted"><i
+                                                    class="fa-regular fa-calendar-days"></i> 2 months ago</small>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="card-group">
+                                <div class="card">
+                                    <img src="/Images/helpingPeople.png" class="card-img-top" alt="best ngo">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Charity, Expectations vs. Reality</h5>
+                                        <p class="card-text">Lorem ipsum dolor sit amet, consetetur sadipscing
+                                            sed diam nonumy tempor invidunt ut labore et
+                                            magna aliquyam erat, sed diam voluptua.....
+                                        </p>
+                                        <p class="card-text"><small class="text-muted"><i
+                                                    class="fa-regular fa-calendar-days"></i> 12 sep 2021</small>
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="card">
+                                    <img src="/Images/hungreeGirl.png" class="card-img-top"
+                                        alt="works for hungry peple">
+                                    <div class="card-body">
+                                        <h5 class="card-title">This Week’s Top Stories About Charity</h5>
+                                        <p class="card-text">Lorem ipsum dolor sit amet, consetetur sadipscing
+                                            sed diam nonumy tempor invidunt ut labore et
+                                            magna aliquyam erat, sed diam voluptua.....</p>
+                                        <p class="card-text"><small class="text-muted"><i
+                                                    class="fa-regular fa-calendar-days"></i> Last updated 10 Week’s
+                                                ago</small>
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="card">
+                                    <img src="/Images/hungryChild.png" class="card-img-top"
+                                        alt="works for hungry people">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Why You Should Focus on Charity</h5>
+                                        <p class="card-text">Lorem ipsum dolor sit amet, consetetur sadipscing
+                                            sed diam nonumy tempor invidunt ut labore et
+                                            magna aliquyam erat, sed diam voluptua.....</p>
+                                        <p class="card-text"><small class="text-muted"><i
+                                                    class="fa-regular fa-calendar-days"></i> 2 months ago</small>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" style="display: block !important;" type="button"
+                        data-bs-target="#Blogs" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" style="display: block !important;" type="button"
+                        data-bs-target="#Blogs" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
 
-}, 500);
+    <footer class="container bg-white mt-5  px-3 px-md-0">
+        <div class="row">
+            <div class="col">
+                <h2>Logo</h2>
+                <p class="text-muted">We ara a lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                    tempor incididunt ut labore exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat...
+                    <span class="text-success">Read More</span></p>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-6 col-md-3">
+                            <div class="row">
+                                <div class="col-1 d-flex align-items-center"><span
+                                        class="material-symbols-outlined text-muted">
+                                        phone_in_talk
+                                    </span></div>
+                                <div class="col">
+                                    <p class="my-0">Tel</p>
+                                    <span class="text-success">310-437-2766</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-6 col-md-3 ">
+                            <div class="row">
+                                <div class="col-1 d-flex align-items-center">
+                                    <span class="material-symbols-outlined text-muted">
+                                        mail
+                                    </span>
+                                </div>
+                                <div class="col">
+                                    <p class="my-0">Mail</p>
+                                    <span class="text-success">unreal@outlook.com</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-6 col-md-3 mt-2 mt-md-2 mt-lg-0 ">
+                            <div class="row">
+                                <div class="col-1 d-flex align-items-center">
+                                    <span class="material-symbols-outlined text-muted">
+                                        location_on
+                                    </span>
+                                </div>
+                                <div class="col">
+                                    <p class="my-0">Address</p>
+                                    <span class="text-success">706 Campfire Ave. Meriden, CT 06450</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-6 col-md-3 mt-2 mt-md-2 mt-lg-0">
+                            <div class="row">
+                                <div class="col-1 d-flex align-items-center">
+                                    <span class="material-symbols-outlined text-muted">
+                                        print
+                                    </span>
+                                </div>
+                                <div class="col">
+                                    <p class="my-0">Fax</p>
+                                    <span class="text-success">+1-000-0000</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-6 col-md-3 mt-4">
+                <h5>About</h5>
+                <p class="mt-4 mb-0"> <a href="#" class="link-secondary text-decoration-none">About us </a></p>
+                <p class="my-1 "> <a href="#" class="link-secondary text-decoration-none">blogs </a></p>
+                <p class="my-1 "> <a href="#" class="link-secondary text-decoration-none">Careers </a></p>               
+                <p class="my-1 "> <a href="#" class="link-secondary text-decoration-none">Jobs </a></p>               
+                <p class="my-1 "> <a href="#" class="link-secondary text-decoration-none">In oress </a></p>               
+            </div>
+            <div class="col-6 col-md-3 mt-4">
+                <h5>Support</h5>
+                <p class="mt-4 mb-0"> <a href="#" class="link-secondary text-decoration-none">Contact us</a></p>
+                <p class="my-1 "> <a href="#" class="link-secondary text-decoration-none">Online Chat </a></p>
+                <p class="my-1 "> <a href="#" class="link-secondary text-decoration-none">Whatsapp </a></p>               
+                <p class="my-1 "> <a href="#" class="link-secondary text-decoration-none">Telegram </a></p>               
+                <p class="my-1 "> <a href="#" class="link-secondary text-decoration-none">Ticketing </a></p>  
+            </div>
+            <div class="col-6 col-md-3 mt-4">
+                <h5>FAQ</h5>
+                <p class="mt-4 mb-0"> <a href="#" class="link-secondary text-decoration-none">Account</a></p>
+                <p class="my-1 "> <a href="#" class="link-secondary text-decoration-none">Manage Deliveries</a></p>
+                <p class="my-1 "> <a href="#" class="link-secondary text-decoration-none">Orders </a></p>               
+                <p class="my-1 "> <a href="#" class="link-secondary text-decoration-none">Payments </a></p>               
+                <p class="my-1 "> <a href="#" class="link-secondary text-decoration-none">Returns </a></p> 
+            </div>
+            <div class="col-6 col-md-3 mt-4">
+                <h5>About</h5>
+                <p class="mt-4 mb-0"> <a href="#" class="link-secondary text-decoration-none">About us </a></p>
+                <p class="my-1 "> <a href="#" class="link-secondary text-decoration-none">blogs </a></p>
+                <p class="my-1 "> <a href="#" class="link-secondary text-decoration-none">Careers </a></p>               
+                <p class="my-1 "> <a href="#" class="link-secondary text-decoration-none">Jobs </a></p>               
+                <p class="my-1 "> <a href="#" class="link-secondary text-decoration-none">In oress </a></p>               
+            </div>
+        </div>
+        <div class="row mt-4">
+            <div class="col px-0">
+                <nav class="navbar navbar-expand-lg border-top bg-transparent">
+                    <div class="container-fluid px-0">
+                    
+                      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">                        
+                          <li class="nav-item">
+                            <a class="nav-link" href="#">About us</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="#">Contact</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="#">Privacy policy</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="#">Sitemap</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="#">Terms of Use</a>
+                          </li>
+                        </ul>
+                        <form class="d-flex">
+                          
+                            <a class="nav-link disabled text-muted" href="#">  © 2000-2021, All Rights Reserved</a>
+                        </form>
+                      </div>
+                    </div>
+                  </nav>
+            </div>
+        </div>
+    </footer>
 
-var i = 0;
-var txt1 = "Hi SweetHeart.....!  <<               Now I wan't to say something special to you. <<<                So , Please read everything carefully...!                                                                           > When I saw you for the first time < You seems something Special to me.  <<                  As the days goes < you get closer to me....! <<                           I don't know the reason why your thoughts always resonates inside my mind...!                                                     > Everything about you is always intresting for me...!                     << I am somewhat nervous Because I haven't said these words to anyone and I won't say to anyone in future...!                                                     > I Love my Parents so much than anything else in this world....!                    << Now You are the only person  whom I love equally with my parents....!                                                             >I Love U <SweetHeart.....! |                  <<<< Give me One chance to Prove my Love ...! #";
-var speed = 100;
-typeWriter();
-function typeWriter() {
-    if (i < txt1.length) {
-        if (txt1.charAt(i) == '<')
-            document.getElementById("text1").innerHTML += '</br>'
-        else if (txt1.charAt(i) == '>')
-            document.getElementById("text1").innerHTML = ''
-        else if (txt1.charAt(i) == '|') {
-            $(".bg_heart").css("background-image", "url('data:image/jpeg;base64,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')");
-
-        }
-        else if (txt1.charAt(i) == '#') {
-          debugger
-            $('#ThoughtsWrapper').css('display', 'none');
-            $('#ThoughtsWrapper1').css('display', 'none');
-            $('#HappyBirthdayWarapper').css('display', 'block');
-        }
-        else
-            document.getElementById("text1").innerHTML += txt1.charAt(i);
-        i++;
-        setTimeout(typeWriter, speed);
-    }
-}
-
-
-
-
-// helper functions
-const PI2 = Math.PI * 2
-const random = (min, max) => Math.random() * (max - min + 1) + min | 0
-const timestamp = _ => new Date().getTime()
-
-// container
-class Birthday {
-  constructor() {
-    this.resize()
-
-    // create a lovely place to store the firework
-    this.fireworks = []
-    this.counter = 0
-
-  }
-  
-  resize() {
-    this.width = canvas.width = window.innerWidth
-    let center = this.width / 2 | 0
-    this.spawnA = center - center / 4 | 0
-    this.spawnB = center + center / 4 | 0
-    
-    this.height = canvas.height = window.innerHeight
-    this.spawnC = this.height * .1
-    this.spawnD = this.height * .5
-    
-  }
-  
-  onClick(evt) {
-     let x = evt.clientX || evt.touches && evt.touches[0].pageX
-     let y = evt.clientY || evt.touches && evt.touches[0].pageY
-     
-     let count = random(3,5)
-     for(let i = 0; i < count; i++) this.fireworks.push(new Firework(
-        random(this.spawnA, this.spawnB),
-        this.height,
-        x,
-        y,
-        random(0, 260),
-        random(30, 110)))
-          
-     this.counter = -1
-     
-  }
-  
-  update(delta) {
-    ctx.globalCompositeOperation = 'hard-light'
-    ctx.fillStyle = `rgba(20,20,20,${ 7 * delta })`
-    ctx.fillRect(0, 0, this.width, this.height)
-
-    ctx.globalCompositeOperation = 'lighter'
-    for (let firework of this.fireworks) firework.update(delta)
-
-    // if enough time passed... create new new firework
-    this.counter += delta * 3 // each second
-    if (this.counter >= 1) {
-      this.fireworks.push(new Firework(
-        random(this.spawnA, this.spawnB),
-        this.height,
-        random(0, this.width),
-        random(this.spawnC, this.spawnD),
-        random(0, 360),
-        random(30, 110)))
-      this.counter = 0
-    }
-
-    // remove the dead fireworks
-    if (this.fireworks.length > 1000) this.fireworks = this.fireworks.filter(firework => !firework.dead)
-
-  }
-}
-
-class Firework {
-  constructor(x, y, targetX, targetY, shade, offsprings) {
-    this.dead = false
-    this.offsprings = offsprings
-
-    this.x = x
-    this.y = y
-    this.targetX = targetX
-    this.targetY = targetY
-
-    this.shade = shade
-    this.history = []
-  }
-  update(delta) {
-    if (this.dead) return
-
-    let xDiff = this.targetX - this.x
-    let yDiff = this.targetY - this.y
-    if (Math.abs(xDiff) > 3 || Math.abs(yDiff) > 3) { // is still moving
-      this.x += xDiff * 2 * delta
-      this.y += yDiff * 2 * delta
-
-      this.history.push({
-        x: this.x,
-        y: this.y
-      })
-
-      if (this.history.length > 20) this.history.shift()
-
-    } else {
-      if (this.offsprings && !this.madeChilds) {
-        
-        let babies = this.offsprings / 2
-        for (let i = 0; i < babies; i++) {
-          let targetX = this.x + this.offsprings * Math.cos(PI2 * i / babies) | 0
-          let targetY = this.y + this.offsprings * Math.sin(PI2 * i / babies) | 0
-
-          birthday.fireworks.push(new Firework(this.x, this.y, targetX, targetY, this.shade, 0))
-        }
-      }
-      this.madeChilds = true
-      this.history.shift()
-    }
-    
-    if (this.history.length === 0) this.dead = true
-    else if (this.offsprings) { 
-        for (let i = 0; this.history.length > i; i++) {
-          let point = this.history[i]
-          ctx.beginPath()
-          ctx.fillStyle = 'hsl(' + this.shade + ',100%,' + i + '%)'
-          ctx.arc(point.x, point.y, 1, 0, PI2, false)
-          ctx.fill()
-        } 
-      } else {
-      ctx.beginPath()
-      ctx.fillStyle = 'hsl(' + this.shade + ',100%,50%)'
-      ctx.arc(this.x, this.y, 1, 0, PI2, false)
-      ctx.fill()
-    }
-
-  }
-}
-
-let canvas = document.getElementById('birthday')
-let ctx = canvas.getContext('2d')
-
-let then = timestamp()
-
-let birthday = new Birthday
-window.onresize = () => birthday.resize()
-document.onclick = evt => birthday.onClick(evt)
-document.ontouchstart = evt => birthday.onClick(evt)
-
-  ;(function loop(){
-  	requestAnimationFrame(loop)
-
-  	let now = timestamp()
-  	let delta = now - then
-
-    then = now
-    birthday.update(delta / 1000)
-  	
-
-  })()
-      
-    </script> 
+    <script src="/Plugin/bootstrap-5.2.3-dist/js/bootstrap.bundle.min.js"></script>
+    <script src="/javascript.js"></script>
 </body>
+
 </html>
